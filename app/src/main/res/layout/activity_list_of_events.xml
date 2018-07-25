@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/noEventsListed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Žádné akce zde nejsou. Pravděpodobně nemáte práva."
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="2px"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

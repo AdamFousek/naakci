@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SuccessDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorSuccess</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/dialog_button.positive</item>
+    </style>
+
+    <style name="FailDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorFail</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/dialog_button.positive</item>
+    </style>
+
+    <style name="dialog_button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="dialog_button.positive">
+        <item name="android:gradientRadius">15dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textColor">@color/colorTextPrimaryDark</item>
+    </style>
+
+</resources>
